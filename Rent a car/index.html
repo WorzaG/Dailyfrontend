@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="table">
+      <form>
+        <h2>Search for a rental car</h2>
+        <label for="location"> Pick up location</label>
+        <input
+          type="text"
+          name="location"
+          id="location"
+          placeholder="City,airpot"
+        />
+        <span>
+          <input type="checkbox" name="somewhere" id="somewhere" />
+          <label for="somewhere"> Deliveer the car somewhere else </label>
+        </span>
+        <div class="date">
+          <span>
+            <label for="pick">Date of pick up</label>
+            <input type="date" name="pick" id="pick" />
+            <input type="time" name="time" id="time" />
+          </span>
+          <span>
+            <label for="pick">Date of delivery</label>
+            <input type="date" name="deliver" id="deliver" />
+            <input type="time" name="time" id="time" />
+          </span>
+        </div>
+        <span>
+          <input type="checkbox" name="age" id="age" />
+          <label for="age">The driver's age between 30 and 65 ? </label>
+        </span>
+        <div class="info">
+          <ul>
+            <li> <span>&#10003</span> No credit card fees</li>
+            <li> <span>&#10003</span> No change fees</li>
+            <li> <span>&#10003</span> Price match guarantee</li>
+          </ul>
+        </div>
+        <input type="button" value="Search">
+      </form>
+    </div>
+  </body>
+</html>
